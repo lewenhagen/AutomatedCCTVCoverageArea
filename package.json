@@ -1,0 +1,22 @@
+{
+  "name": "automated_generation_of_cctv_camera_coverage_areas",
+  "version": "1.0.0",
+  "description": "A prototype to automatically generate the CCTV camera coverage area",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "http-server": "npx http-server -p 9001"
+  },
+  "keywords": [],
+  "author": "Kenneth Lewenhagen",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "geokdbush": "^1.1.0",
+    "http-server": "^14.1.1",
+    "kdbush": "^4.0.2",
+    "leaflet": "^1.9.4",
+    "rbush": "^3.0.1"
+  }
+}
