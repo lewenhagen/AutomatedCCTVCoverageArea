@@ -9,6 +9,11 @@
 * Run the script "generate.js" with `$ node generate.js data/<your_cam_file>.json`.
 * View the result by running `$ npm run http-server` and view the result in your browser at "localhost:9001". It opens the file `data/result.geojson` for viewing.
 
+### Link to paper
+
+Feel free to cite the paper:
+<TBD>
+
 ### Acknowledgment
 
 Special thanks to Volodymyr Agafonkin for creating RBush which helped a lot (https://github.com/mourner/rbush/blob/master/README.md).
